@@ -6,5 +6,5 @@ brew install --cask noahsmo/tap/<cask>
 
 | Cask | Description |
 |---|---|
-| [clawdio](https://github.com/NoahSmo/clawdio) | Quota Claude Code et statut des agents dans l'encoche, avec une mascotte pixel art |
-| [hiddenbar](https://github.com/NoahSmo/HiddenBar) | Cache les icônes de la barre des menus macOS (compatible macOS 27) |
+| [clawdio](https://github.com/NoahSmo/clawdio) | Claude Code quota and agent status in the notch |
+| [hiddenbar](https://github.com/NoahSmo/HiddenBar) | Hide menu bar icons (works on macOS 27) |
