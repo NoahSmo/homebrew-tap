@@ -7,7 +7,7 @@ cask "hiddenbar" do
   desc "Hide menu bar icons, compatible with macOS 27"
   homepage "https://github.com/NoahSmo/HiddenBar"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "HiddenBar.app"
 
