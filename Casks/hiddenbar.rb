@@ -12,9 +12,8 @@ cask "hiddenbar" do
   app "HiddenBar.app"
 
   # L'app n'est pas notarisée : sans ça, Gatekeeper bloque le premier lancement.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/HiddenBar.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "/Applications/HiddenBar.app"]
   end
 
   uninstall quit: "com.noah.hiddenbar"
