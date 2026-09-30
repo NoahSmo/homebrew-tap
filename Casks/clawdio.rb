@@ -1,6 +1,6 @@
 cask "clawdio" do
-  version "0.2.1"
-  sha256 "28863de2b8ca4f76e383beac6455f973439fd263288db374863a7770bffcd35c"
+  version "0.2.2"
+  sha256 "4bb999ed23ab6bb3fb9b6c62145900cb0aec025d07da1abafd4ae5bd31e700a5"
 
   url "https://github.com/NoahSmo/clawdio/releases/download/v#{version}/Clawdio-#{version}.zip"
   name "Clawdio"
