@@ -1,6 +1,6 @@
 cask "hiddenbar" do
-  version "1.0.0"
-  sha256 "a39486ee38d79dd3c00fe367fd0397ecb2b52dea3a5fe96f50b5a4b395803b26"
+  version "1.1.0"
+  sha256 "bbb7d97f072c8e42650b9d537bdc9c7f08de7db8bd00d1ee474dff0517702c44"
 
   url "https://github.com/NoahSmo/HiddenBar/releases/download/v#{version}/HiddenBar-#{version}.zip"
   name "HiddenBar"
