@@ -1,6 +1,6 @@
 cask "baton" do
-  version "0.3.27"
-  sha256 "cf68bae00990811081623f5700766c4ca7ca41a8fb192fd6c6b30a5c86675abb"
+  version "0.3.28"
+  sha256 "1f1d8af61d4678f038d3dba1272308005fca53d6464b01d7efde6418fdc85a1c"
 
   url "https://github.com/NoahSmo/Baton/releases/download/v#{version}/Baton-#{version}.zip"
   name "Baton"
