@@ -1,6 +1,6 @@
 cask "baton" do
-  version "0.4.8"
-  sha256 "2d1d294ae4e1c85ad974737d737ad4cccbe8855373dbdb966fe0a8aef7629fe8"
+  version "0.4.9"
+  sha256 "95fd6e5b8b0643a69bd08b8f35db2ee0aa9f83eb7c92be5cbc3b09f8885abe10"
 
   url "https://github.com/NoahSmo/Baton/releases/download/v#{version}/Guru-#{version}.zip"
   name "Guru"
